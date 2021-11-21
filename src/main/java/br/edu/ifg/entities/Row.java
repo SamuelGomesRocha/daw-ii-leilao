@@ -2,6 +2,7 @@ package br.edu.ifg.entities;
 
 public class Row {
 
+	//test
 	private int index;
 	private Status context;
 	
