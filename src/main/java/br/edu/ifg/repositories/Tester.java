@@ -9,7 +9,7 @@ public class Tester{
 		
 		UserRepository newUser = new UserRepository();
 		newUser.save(new User("000.000.000-00", "Admin", "admin@gmail.com",
-				"(62) 99999-9999", "admin", "admin", Acesso.ADMIN));
+				"(62) 99999-9999", "?", "?", ?));
 		
 		System.out.println(newUser.list().toString());
 	
